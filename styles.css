@@ -21,3 +21,44 @@ p {
 #main-div-2 > p {
 	background-color: orange;
 }
+
+/* Step 3 */
+
+#li-1 {
+	font-size: 30px;
+}
+
+#li-2 {
+	font-weight: bold;
+}
+
+#li-3 {
+	text-transform: uppercase;
+}
+
+#mysteryul li:nth-child(2n+1){
+	font-family: 'Mystery QUest', cursive;
+}
+
+img {
+	width: 200px;
+	height: auto;
+}
+
+#flex-kermit {	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flex-kermit img {
+	width: 30%;
+}
+
+input:valid {
+	background-color: red;
+}
+
+
+input:invalid {
+	background-color: purple;
+}
